@@ -44,6 +44,7 @@
 
 .form-area {
   display: flex;
+  align-items: end;
 }
 
 .pick {
@@ -56,6 +57,17 @@
   margin-bottom: 20px;
   padding: 10px;
   height: 40px;
+  border: none;
+  background-color: bisque;
+  border-radius: 20px;
+  cursor: pointer;
+  user-select: none;
+  font-weight: bold;
+}
+
+.size-btn {
+  padding: 10px;
+  height: 43px;
   border: none;
   background-color: bisque;
   border-radius: 20px;

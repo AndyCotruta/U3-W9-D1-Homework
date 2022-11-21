@@ -8,6 +8,7 @@ const InputFields = () => {
     e.preventDefault();
     const imageSize = { width, height };
     console.log(imageSize);
+    fetch();
   };
   return (
     <div className="pick-size">
@@ -31,7 +32,7 @@ const InputFields = () => {
             onChange={(e) => setHeight(e.target.value)}
           />
         </div>
-        <button>Change size!</button>
+        <button className="size-btn">Change size!</button>
       </form>
     </div>
   );
