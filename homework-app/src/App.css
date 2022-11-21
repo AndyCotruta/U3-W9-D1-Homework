@@ -37,6 +37,21 @@
   }
 }
 
+.pick-size {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.form-area {
+  display: flex;
+}
+
+.pick {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
 .action-btn {
   margin-bottom: 20px;
   padding: 10px;
